@@ -1,6 +1,10 @@
 # Spec-Driven Development with Coding Agents
 
-> Course link: https://www.deeplearning.ai/short-courses/spec-driven-development-with-coding-agents/
+## Metadata
+
+Course link: https://www.deeplearning.ai/short-courses/spec-driven-development-with-coding-agents/
+
+Git repo: https://github.com/https-deeplearning-ai/sc-spec-driven-development-files
 
 ## Benefits of Specs in SDD
 
@@ -38,3 +42,27 @@ A Constitution is just one way to formalize these project level details. Many de
 - Living document with a sequence of phases, often breaking down a project into feature-specific specs.
 - Updated as "replanning" occurs while development is in progress.
 - Translates high level goals into actionable technical tasks or user stories.
+
+**Once the constitution has been drafted, we work on each feature with a repeatable process.**
+
+- Plan the feature using spec documents
+- Implement the feature using spec
+- Validate the feature as outlined in the spec
+
+In between features, it's time for the replanning phase. In the replanning phase, we revise the constitution, update the roadmap and even improve the process itself. In the feature and replanning phases, developers **steer** the agent.
+
+## The Developer (*read: Architect*) role:
+
+- Design
+- Supervise
+- Review
+- Accept / Reject changes.
+- Avoid telling the agent low-level implementation details. If absolutely required, add it as a constraint in the spec document itself.
+
+## Tools
+
+Any editors / CLI agents work. SDD isn't tied to any specific tool / IDE.
+
+Similarly, any coding agent works.
+
+*Created specs travel and remain valid even after switching tools / agents.*
