@@ -66,3 +66,10 @@ Any editors / CLI agents work. SDD isn't tied to any specific tool / IDE.
 Similarly, any coding agent works.
 
 *Created specs travel and remain valid even after switching tools / agents.*
+
+## Terms
+
+- Greenfield project: new project
+- Brownfield project: existing project.
+
+SDD is excellent for both kinds of projects.
