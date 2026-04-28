@@ -28,4 +28,13 @@ A Constitution is just one way to formalize these project level details. Many de
 - Scope
 - Audiences
 
+### Tech stack
 
+- Targeted to the engineering team
+- Provides understanding for the development and deployment technologies and constraints.
+
+### Roadmap
+
+- Living document with a sequence of phases, often breaking down a project into feature-specific specs.
+- Updated as "replanning" occurs while development is in progress.
+- Translates high level goals into actionable technical tasks or user stories.
