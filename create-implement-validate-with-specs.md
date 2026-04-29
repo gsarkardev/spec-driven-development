@@ -4,6 +4,14 @@ Specs are created in a *conversation with the coding agent*, not manually.
 
 For example, if a new project needs to be created (*Greenfield project*), create a `README.md` file, start a conversation with a coding agent about what the project is about keeping it short and tell it to look in the `README.md` file for more details.
 
+---
+
+## TLDR
+
+Grab the next feature on roadmap -> plan it in a conversation with the agent -> update the plan, requirements and validation spec -> implement the spec -> review and verify -> request changes if required.
+
+---
+
 ## Iteration 1 (Create the CONSTITUTION)
 
 **README.md**
