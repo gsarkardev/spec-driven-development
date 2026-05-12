@@ -15,6 +15,13 @@ my-skill/
 └── ...               # Any additional files or directories
 ```
 
+It is usually recommended to keep skills outside project folders, on the same level. If projects are in `~/git/todoerv2/`, then skills can be stored in `~/git/agent-skills`.
+
+The important architectural distinction is:
+
+- global skills = reusable workflow protocols
+- repo-local specs = project knowledge/state
+
 ---
 
 ## Iteration 1 (Create the skill)
@@ -203,6 +210,14 @@ Target roadmap item:
 
 Execute the workflow exactly as defined.
 ```
+
+---
+
+## Agent replaceability
+
+Specs are not tied to any specific coding agent. Once created, they can be used by any other agent to implement the SDD workflow.
+
+For example, if the above skill was created in Claude, that same skill can be invoked using the same prompt by another agent. The only thing to note is, different agents have different skill directory conventions, and the specs / skills may need to be copied to that specific agent's configured directory.
 
 ---
 
