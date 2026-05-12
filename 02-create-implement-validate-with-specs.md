@@ -12,6 +12,10 @@ Grab the next feature on roadmap -> plan it in a conversation with the agent -> 
 
 ---
 
+> The prompts below are for getting started with SDD workflow and are designed for learning the workflow only. **For real-world prompts, refer to 05 and 06 documents.**
+
+---
+
 ## Iteration 1 (Create the CONSTITUTION)
 
 **README.md**
