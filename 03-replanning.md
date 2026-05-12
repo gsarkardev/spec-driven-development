@@ -54,7 +54,7 @@ Go to the specs/roadmap.md and combine phases 2-3-4-5 into a new phase 2.
 
 ---
 
-## Replanning with Skills (introducing a changelog)
+## Replanning with Skills (introducing a changelog) - Basics only, for in-depth, refer to 06-skills.md
 
 It may be useful to add or update a CHANGELOG.md file on each merge to main. This way, we can keep track of what changed as we work on the plan and roadmap specs.
 
