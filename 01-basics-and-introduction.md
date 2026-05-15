@@ -6,6 +6,24 @@ Course link: https://www.deeplearning.ai/short-courses/spec-driven-development-w
 
 Git repo: https://github.com/https-deeplearning-ai/sc-spec-driven-development-files
 
+## What is SDD?
+
+Spec-driven development (SDD) is a structured approach to software development that treats specifications as executable sources of truth rather than throwaway planning documents. When you use SDD with AI coding assistants like GitHub Copilot, the specification guides code generation directly, ensuring the implementation matches your intended behavior from the start.
+
+## Key features of spec-driven development
+
+Spec-driven development rests on several core principles that distinguish it from traditional approaches:
+
+- Specifications as the primary artifact: The specification becomes the central source of truth. Code becomes its expression in a particular language and framework. Maintaining software means evolving specifications, not just patching code.
+
+- Executable specifications: Specifications must be precise, complete, and unambiguous enough to generate working systems. This level of accuracy eliminates the gap between intent and implementation.
+
+- Living documentation: Debugging means fixing specifications and implementation plans that generate incorrect code. Refactoring means restructuring specifications for clarity. The entire development workflow reorganizes around specifications as the central source of truth, with code as the continuously regenerated output.
+
+- AI-human collaboration: The transformation from specs to code is possible because AI can understand and implement complex specifications. But raw AI generation without structure produces chaos. SDD provides that structure through specifications that are precise enough to generate working systems.
+
+Essentially, the spec becomes the code's single source of truth. In SDD, the spec isn't a throwaway document; it's a living artifact that directly contributes to code generation and validation.
+
 ## Benefits of Specs in SDD
 
 - Control huge codebases and feature code with simple, small changes to spec.
