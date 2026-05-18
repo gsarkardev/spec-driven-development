@@ -14,13 +14,13 @@ Spec-driven development (SDD) is a structured approach to software development t
 
 Spec-driven development rests on several core principles that distinguish it from traditional approaches:
 
-- Specifications as the primary artifact: The specification becomes the central source of truth. Code becomes its expression in a particular language and framework. Maintaining software means evolving specifications, not just patching code.
+- *Specifications as the primary artifact:* The specification becomes the central source of truth. Code becomes its expression in a particular language and framework. Maintaining software means evolving specifications, not just patching code.
 
-- Executable specifications: Specifications must be precise, complete, and unambiguous enough to generate working systems. This level of accuracy eliminates the gap between intent and implementation.
+- *Executable specifications:* Specifications must be precise, complete, and unambiguous enough to generate working systems. This level of accuracy eliminates the gap between intent and implementation.
 
-- Living documentation: Debugging means fixing specifications and implementation plans that generate incorrect code. Refactoring means restructuring specifications for clarity. The entire development workflow reorganizes around specifications as the central source of truth, with code as the continuously regenerated output.
+- *Living documentation:* Debugging means fixing specifications and implementation plans that generate incorrect code. Refactoring means restructuring specifications for clarity. The entire development workflow reorganizes around specifications as the central source of truth, with code as the continuously regenerated output.
 
-- AI-human collaboration: The transformation from specs to code is possible because AI can understand and implement complex specifications. But raw AI generation without structure produces chaos. SDD provides that structure through specifications that are precise enough to generate working systems.
+- *AI-human collaboration:* The transformation from specs to code is possible because AI can understand and implement complex specifications. But raw AI generation without structure produces chaos. SDD provides that structure through specifications that are precise enough to generate working systems.
 
 Essentially, the spec becomes the code's single source of truth. In SDD, the spec isn't a throwaway document; it's a living artifact that directly contributes to code generation and validation.
 
@@ -64,43 +64,6 @@ A key aspect of SDD is that each phase has a validation step before moving forwa
 This structured progression is what gives SDD its reliability.
 
 **SDD outputs are living artifacts that can evolve.** The spec might get updated as you learn new information, and then you'd adjust the plan and tasks accordingly. When a product manager updates acceptance criteria, implementation plans can automatically flag affected technical decisions. When an architect discovers a better pattern, the specification updates to reflect new possibilities.
-
-## SDD workflow
-
-*First, we specify the Constitution.*
-
-A **Constitution** comprises of 3 things:
-- Mission
-- Tech stack
-- Roadmap
-
-A Constitution is just one way to formalize these project level details. Many developers use a top level `agents.md` file for this purpose. It is **agent-agnostic** and very structured. Most importantly, **a Constitution captures the agreement on key decisions between the human and the agents and also between the humans as well.**
-
-### Mission
-
-- Why?
-- Vision
-- Scope
-- Audiences
-
-### Tech stack
-
-- Targeted to the engineering team
-- Provides understanding for the development and deployment technologies and constraints.
-
-### Roadmap
-
-- Living document with a sequence of phases, often breaking down a project into feature-specific specs.
-- Updated as "replanning" occurs while development is in progress.
-- Translates high level goals into actionable technical tasks or user stories.
-
-**Once the constitution has been drafted, we work on each feature with a repeatable process.**
-
-- Plan the feature using spec documents
-- Implement the feature using spec
-- Validate the feature as outlined in the spec
-
-In between features, it's time for the replanning phase. In the replanning phase, we revise the constitution, update the roadmap and even improve the process itself. In the feature and replanning phases, developers **steer** the agent.
 
 ## The Developer (*read: Architect*) role:
 
