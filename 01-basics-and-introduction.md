@@ -32,6 +32,39 @@ Essentially, the spec becomes the code's single source of truth. In SDD, the spe
 
 > Specs should contain lots of details about the goals, mission, target audience and constraints and less about low level decisions, which the agent can figure out on its own.
 
+## Workflow phases in spec-driven development
+
+The SDD workflow transforms an idea into working code through four distinct phases. Each phase builds on the previous one, creating a clear progression from vision to execution. Think of it as a structured progression where each step has a clear output that feeds into the next.
+
+### Phase 1: Specify
+
+Define the desired outcome and requirements - focus on **what the software should do and why, not how**. The output is a specification document that captures user needs, acceptance criteria, and constraints. The specification document becomes the authoritative source for all subsequent work.
+
+### Phase 2: Plan
+
+Decide on the technical approach to fulfill the spec - architecture, technology stack, and design constraints. The output is a technical plan that maps each requirement to an implementation strategy. This is where you determine **how to build what the spec describes**.
+
+### Phase 3: Tasks
+
+Break down the spec and plan into actionable, bite-sized development tasks. Each task should be small enough to implement and verify independently. The output is an ordered checklist that guides implementation.
+
+### Phase 4: Implement
+
+Write code to complete each task, guided by the spec, plan, and task list. Verify each completed task against the specification before moving on. The output is working, tested code that fulfills the original requirements.
+
+## Checkpoints between phases
+
+A key aspect of SDD is that each phase has a validation step before moving forward:
+
+- The spec must be reviewed for completeness before planning
+- The plan must be checked for feasibility before generating tasks
+- Tasks must be verified for coverage before implementation begins
+- Code must be validated against the spec before considering work complete
+
+This structured progression is what gives SDD its reliability.
+
+**SDD outputs are living artifacts that can evolve.** The spec might get updated as you learn new information, and then you'd adjust the plan and tasks accordingly. When a product manager updates acceptance criteria, implementation plans can automatically flag affected technical decisions. When an architect discovers a better pattern, the specification updates to reflect new possibilities.
+
 ## SDD workflow
 
 *First, we specify the Constitution.*
