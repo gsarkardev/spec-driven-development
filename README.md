@@ -11,3 +11,6 @@ Notes for SDD
 4. https://github.com/gsarkardev/spec-driven-development/blob/master/04-using-sub-agents.md
 5. https://github.com/gsarkardev/spec-driven-development/blob/master/05-adding-spec-to-existing-projects.md
 6. https://github.com/gsarkardev/spec-driven-development/blob/master/06-skills.md
+7. https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-greenfield-intro/6-introduction-github-spec-kit?pivots=text
+8. https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-greenfield-intro/8-examine-github-spec-kit-commands-results?pivots=text
+
